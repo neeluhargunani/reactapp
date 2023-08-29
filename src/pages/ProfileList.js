@@ -12,7 +12,7 @@ export default function ProfileList() {
 
   return (
     <div className={styleList.userList}>
-      <ul className=" ">
+      <ul >
         {allUsers.map((user) => (
           <li key={user.id}>
             {/* Use NavLink instead of Link */}
@@ -21,7 +21,7 @@ export default function ProfileList() {
               activeClassName={styleList.activeLink}
             >
               <div className={styleList.userListCard}>
-                <img src={user.profilepicture} alt={user.profilepicture} />
+                <img src={user.profilepicture} alt={user.username} />
                 <span>{user.name}</span>
               </div>
             </NavLink>
