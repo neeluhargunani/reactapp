@@ -1,0 +1,99 @@
+.topNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:.7rem;
+    
+}
+.topNavBar h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.topNavBar img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    margin-bottom:10px;
+    
+}
+
+.profile_dropdown{position: absolute;
+right: 4%;
+top: 13%;
+background: #ffffff;
+box-shadow: rgba(0, 0, 0, 0.493) 0px 3px 8px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+padding-bottom: 40px;
+width: 310px;
+overflow: hidden;
+
+}
+
+.profile_content {
+    padding: 20px 20px;
+  }
+.currentUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+ .current_img{
+    width: 100px!important;
+    height:100px!important;
+    border-radius: 50%;
+  }
+  .profile_content > a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color:rgb(74, 72, 72);
+  }
+  .profile_content > a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .profile_content > a p {
+   
+    display: flex;
+    align-items: center;
+    gap:1.2rem;
+    padding:.7rem;
+    border-bottom:solid #ddd;
+  }
+  
+  .profile_content > p {
+    font-weight: 500;
+    color: rgb(74, 72, 72);
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  .profile_content> p:last-child {
+    font-weight: 400;
+    color: grey;
+    font-size: 16px;
+    margin-top: 9px;
+  }
+  .profile_content> h5{
+    text-align: center;
+  }
+  .signOutmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .signOut{
+    background-color: #d55151;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: .9rem;
+    border-radius: 2rem;
+    width:7vw;
+  }
