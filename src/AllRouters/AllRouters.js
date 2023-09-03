@@ -15,10 +15,10 @@ export default function AllRouters() {
   return (
     <AuthProvider>
     <UserProvider>
-    <Router basename="/reactapp">
+    <Router basename="/panorbit">
  
       <Routes>
-      <Route  exact path='/reactapp' element={<LandingPage/>} />
+      <Route  exact path='/' element={<LandingPage/>} />
           <Route exact path='/profile/:userId' element={<ProfilePage/>} />
         
         
