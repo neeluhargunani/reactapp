@@ -18,7 +18,7 @@ export default function AllRouters() {
     <Router basename="/reactapp">
  
       <Routes>
-      <Route  path='/reactapp' element={<LandingPage/>} />
+      <Route  exact path='/reactapp' element={<LandingPage/>} />
           <Route exact path='/profile/:userId' element={<ProfilePage/>} />
         
         
