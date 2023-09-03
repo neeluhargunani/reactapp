@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7191a7f1.css",
-    "main.js": "/static/js/main.cd897ab6.js",
-    "static/js/787.cd498418.chunk.js": "/static/js/787.cd498418.chunk.js",
-    "static/media/home.png": "/static/media/home.9a3f99bda09ac6851972.png",
-    "index.html": "/index.html",
-    "main.7191a7f1.css.map": "/static/css/main.7191a7f1.css.map",
-    "main.cd897ab6.js.map": "/static/js/main.cd897ab6.js.map",
-    "787.cd498418.chunk.js.map": "/static/js/787.cd498418.chunk.js.map"
+    "main.css": "/reactPanorbit/static/css/main.313cc9f7.css",
+    "main.js": "/reactPanorbit/static/js/main.3b210aaa.js",
+    "static/js/787.cd498418.chunk.js": "/reactPanorbit/static/js/787.cd498418.chunk.js",
+    "static/media/home.png": "/reactPanorbit/static/media/home.9a3f99bda09ac6851972.png",
+    "index.html": "/reactPanorbit/index.html",
+    "main.313cc9f7.css.map": "/reactPanorbit/static/css/main.313cc9f7.css.map",
+    "main.3b210aaa.js.map": "/reactPanorbit/static/js/main.3b210aaa.js.map",
+    "787.cd498418.chunk.js.map": "/reactPanorbit/static/js/787.cd498418.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7191a7f1.css",
-    "static/js/main.cd897ab6.js"
+    "static/css/main.313cc9f7.css",
+    "static/js/main.3b210aaa.js"
   ]
 }
