@@ -15,7 +15,7 @@ export default function AllRouters() {
   return (
     <AuthProvider>
     <UserProvider>
-    <Router basename="/panorbit">
+    <Router basename="/">
  
       <Routes>
       <Route  exact path='/' element={<LandingPage/>} />
