@@ -15,18 +15,20 @@ export default function AllRouters() {
   return (
     <AuthProvider>
     <UserProvider>
- 
     <Router>
  
       <Routes>
       <Route  path='/' element={<LandingPage/>} />
           <Route exact path='/profile/:userId' element={<ProfilePage/>} />
-          <Route exact path='/todo' element={<ToDo/>} />
+        
+        
           <Route  exact path='/post' element={<Post/>} />
           <Route exact path='/gallery' element={<Gallery/>} />
         </Routes>
 
-  </Router>
+  </Router> 
+
+  
 
   </UserProvider>
   </AuthProvider>
