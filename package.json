@@ -1,7 +1,7 @@
 {
   "name": "panorbit",
   "version": "0.1.0",
-  "homepage": "https://neeluhargunani.github.io/reactPanorbit",
+  "homepage": "https://neeluhargunani.github.io/reactapp",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
